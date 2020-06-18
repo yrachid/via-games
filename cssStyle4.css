@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+body{
+height: 100%;
+width: 100%
+}
+
+
+.style2 {
+	font-size: 14px;
+	color: #FF9900;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+table.tableStyle{
+         border:inset 3px #2651d1;
+         -moz-border-radius-topleft: 28px;
+         -moz-border-radius-topright:28px;
+         -moz-border-radius-bottomleft:28px;
+         -moz-border-radius-bottomright:28px;
+         -webkit-border-top-left-radius:28px;
+         -webkit-border-top-right-radius:28px;
+         -webkit-border-bottom-left-radius:28px;
+         -webkit-border-bottom-right-radius:28px;
+         border-top-left-radius:28px;
+         border-top-right-radius:28px;
+         border-bottom-left-radius:28px;
+         border-bottom-right-radius:28px;
+}
+div.conteudo{
+float: left;
+width: 400px;
+background-color:#FFFFFF;
+}
+
+div.conteudo_jogos{
+float: left;
+width: 400px;
+background-color:#FFFFFF;
+height: 300px;
+}
+
+div.conteudo2{
+float: inherit;
+width: 400px;
+background-color:#FFFFFF;
+}
+
+div.menu{
+ float: left;
+ width: 200px;
+ background-color:#FFFFFF;
+}
+
+
+#titulo{
+background-color:#5680BE;
+
+}
+#mainDiv{
+background-color:#FFFFFF;
+width:870px;
+height:800px;
+
+
+}
+#menu{ 
+padding:0;
+margin:0;
+width:180px;
+}
+
+#menu ul, #menu li{
+padding:0;
+margin:0;
+}
+
+#menu li{
+list-style: none;
+position: relative;
+width:120px;
+height: 30px;
+padding:0 20px;
+background: url(images/fundo_1.png);
+line-height: 30px;
+cursor:pointer;
+}
+
+#menu li a{
+text-decoration:none;
+color: white;
+}
+
+#menu li:hover{
+background: url(images/fundo_2.png);
+}
+
+#menu ul ul{
+position: absolute;
+top:0;
+left:160px;
+visibility:hidden;
+}
+
+#menu ul li:hover ul{
+visibility:visible;
+}
+
+#rodape{
+ 
+	position: relative ;
+	bottom: 0px;
+	width:870px;
+	clear: both;
+	
+	
+}
